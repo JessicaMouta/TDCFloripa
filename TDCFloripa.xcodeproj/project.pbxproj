@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC185A3C226E284D00906915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC185A3B226E284D00906915 /* AppDelegate.swift */; };
+		EC185A3E226E284D00906915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC185A3D226E284D00906915 /* ViewController.swift */; };
+		EC185A41226E284D00906915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC185A3F226E284D00906915 /* Main.storyboard */; };
+		EC185A43226E284F00906915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC185A42226E284F00906915 /* Assets.xcassets */; };
+		EC185A46226E284F00906915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC185A44226E284F00906915 /* LaunchScreen.storyboard */; };
+		EC185A51226E284F00906915 /* TDCFloripaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC185A50226E284F00906915 /* TDCFloripaTests.swift */; };
+		EC185A5C226E284F00906915 /* TDCFloripaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC185A5B226E284F00906915 /* TDCFloripaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC185A4D226E284F00906915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC185A30226E284D00906915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC185A37226E284D00906915;
+			remoteInfo = TDCFloripa;
+		};
+		EC185A58226E284F00906915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC185A30226E284D00906915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC185A37226E284D00906915;
+			remoteInfo = TDCFloripa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC185A38226E284D00906915 /* TDCFloripa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDCFloripa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC185A3B226E284D00906915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC185A3D226E284D00906915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC185A40226E284D00906915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC185A42226E284F00906915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC185A45226E284F00906915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC185A47226E284F00906915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC185A4C226E284F00906915 /* TDCFloripaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDCFloripaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC185A50226E284F00906915 /* TDCFloripaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDCFloripaTests.swift; sourceTree = "<group>"; };
+		EC185A52226E284F00906915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC185A57226E284F00906915 /* TDCFloripaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDCFloripaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC185A5B226E284F00906915 /* TDCFloripaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDCFloripaUITests.swift; sourceTree = "<group>"; };
+		EC185A5D226E284F00906915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC185A35226E284D00906915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC185A49226E284F00906915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC185A54226E284F00906915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC185A2F226E284D00906915 = {
+			isa = PBXGroup;
+			children = (
+				EC185A3A226E284D00906915 /* TDCFloripa */,
+				EC185A4F226E284F00906915 /* TDCFloripaTests */,
+				EC185A5A226E284F00906915 /* TDCFloripaUITests */,
+				EC185A39226E284D00906915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC185A39226E284D00906915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC185A38226E284D00906915 /* TDCFloripa.app */,
+				EC185A4C226E284F00906915 /* TDCFloripaTests.xctest */,
+				EC185A57226E284F00906915 /* TDCFloripaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC185A3A226E284D00906915 /* TDCFloripa */ = {
+			isa = PBXGroup;
+			children = (
+				EC185A3B226E284D00906915 /* AppDelegate.swift */,
+				EC185A3D226E284D00906915 /* ViewController.swift */,
+				EC185A3F226E284D00906915 /* Main.storyboard */,
+				EC185A42226E284F00906915 /* Assets.xcassets */,
+				EC185A44226E284F00906915 /* LaunchScreen.storyboard */,
+				EC185A47226E284F00906915 /* Info.plist */,
+			);
+			path = TDCFloripa;
+			sourceTree = "<group>";
+		};
+		EC185A4F226E284F00906915 /* TDCFloripaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC185A50226E284F00906915 /* TDCFloripaTests.swift */,
+				EC185A52226E284F00906915 /* Info.plist */,
+			);
+			path = TDCFloripaTests;
+			sourceTree = "<group>";
+		};
+		EC185A5A226E284F00906915 /* TDCFloripaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC185A5B226E284F00906915 /* TDCFloripaUITests.swift */,
+				EC185A5D226E284F00906915 /* Info.plist */,
+			);
+			path = TDCFloripaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC185A37226E284D00906915 /* TDCFloripa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC185A60226E284F00906915 /* Build configuration list for PBXNativeTarget "TDCFloripa" */;
+			buildPhases = (
+				EC185A34226E284D00906915 /* Sources */,
+				EC185A35226E284D00906915 /* Frameworks */,
+				EC185A36226E284D00906915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDCFloripa;
+			productName = TDCFloripa;
+			productReference = EC185A38226E284D00906915 /* TDCFloripa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC185A4B226E284F00906915 /* TDCFloripaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC185A63226E284F00906915 /* Build configuration list for PBXNativeTarget "TDCFloripaTests" */;
+			buildPhases = (
+				EC185A48226E284F00906915 /* Sources */,
+				EC185A49226E284F00906915 /* Frameworks */,
+				EC185A4A226E284F00906915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC185A4E226E284F00906915 /* PBXTargetDependency */,
+			);
+			name = TDCFloripaTests;
+			productName = TDCFloripaTests;
+			productReference = EC185A4C226E284F00906915 /* TDCFloripaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC185A56226E284F00906915 /* TDCFloripaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC185A66226E284F00906915 /* Build configuration list for PBXNativeTarget "TDCFloripaUITests" */;
+			buildPhases = (
+				EC185A53226E284F00906915 /* Sources */,
+				EC185A54226E284F00906915 /* Frameworks */,
+				EC185A55226E284F00906915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC185A59226E284F00906915 /* PBXTargetDependency */,
+			);
+			name = TDCFloripaUITests;
+			productName = TDCFloripaUITests;
+			productReference = EC185A57226E284F00906915 /* TDCFloripaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC185A30226E284D00906915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jessica Mouta";
+				TargetAttributes = {
+					EC185A37226E284D00906915 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EC185A4B226E284F00906915 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EC185A37226E284D00906915;
+					};
+					EC185A56226E284F00906915 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EC185A37226E284D00906915;
+					};
+				};
+			};
+			buildConfigurationList = EC185A33226E284D00906915 /* Build configuration list for PBXProject "TDCFloripa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC185A2F226E284D00906915;
+			productRefGroup = EC185A39226E284D00906915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC185A37226E284D00906915 /* TDCFloripa */,
+				EC185A4B226E284F00906915 /* TDCFloripaTests */,
+				EC185A56226E284F00906915 /* TDCFloripaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC185A36226E284D00906915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC185A46226E284F00906915 /* LaunchScreen.storyboard in Resources */,
+				EC185A43226E284F00906915 /* Assets.xcassets in Resources */,
+				EC185A41226E284D00906915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC185A4A226E284F00906915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC185A55226E284F00906915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC185A34226E284D00906915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC185A3E226E284D00906915 /* ViewController.swift in Sources */,
+				EC185A3C226E284D00906915 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC185A48226E284F00906915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC185A51226E284F00906915 /* TDCFloripaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC185A53226E284F00906915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC185A5C226E284F00906915 /* TDCFloripaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC185A4E226E284F00906915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC185A37226E284D00906915 /* TDCFloripa */;
+			targetProxy = EC185A4D226E284F00906915 /* PBXContainerItemProxy */;
+		};
+		EC185A59226E284F00906915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC185A37226E284D00906915 /* TDCFloripa */;
+			targetProxy = EC185A58226E284F00906915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC185A3F226E284D00906915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC185A40226E284D00906915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC185A44226E284F00906915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC185A45226E284F00906915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC185A5E226E284F00906915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC185A5F226E284F00906915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC185A61226E284F00906915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99AJDGVV6D;
+				INFOPLIST_FILE = TDCFloripa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmouta.TDCFloripa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC185A62226E284F00906915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99AJDGVV6D;
+				INFOPLIST_FILE = TDCFloripa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmouta.TDCFloripa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC185A64226E284F00906915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDCFloripaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmouta.TDCFloripaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDCFloripa.app/TDCFloripa";
+			};
+			name = Debug;
+		};
+		EC185A65226E284F00906915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDCFloripaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmouta.TDCFloripaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDCFloripa.app/TDCFloripa";
+			};
+			name = Release;
+		};
+		EC185A67226E284F00906915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDCFloripaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmouta.TDCFloripaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDCFloripa;
+			};
+			name = Debug;
+		};
+		EC185A68226E284F00906915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDCFloripaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmouta.TDCFloripaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDCFloripa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC185A33226E284D00906915 /* Build configuration list for PBXProject "TDCFloripa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC185A5E226E284F00906915 /* Debug */,
+				EC185A5F226E284F00906915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC185A60226E284F00906915 /* Build configuration list for PBXNativeTarget "TDCFloripa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC185A61226E284F00906915 /* Debug */,
+				EC185A62226E284F00906915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC185A63226E284F00906915 /* Build configuration list for PBXNativeTarget "TDCFloripaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC185A64226E284F00906915 /* Debug */,
+				EC185A65226E284F00906915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC185A66226E284F00906915 /* Build configuration list for PBXNativeTarget "TDCFloripaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC185A67226E284F00906915 /* Debug */,
+				EC185A68226E284F00906915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC185A30226E284D00906915 /* Project object */;
+}
